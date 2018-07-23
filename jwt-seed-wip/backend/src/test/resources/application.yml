@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/spring_test
+    username: postgres
+    password: admin
+
+  jooq:
+    sql-dialect: postgres_10
+
+  messages:
+    basename: messages/messages
+    encoding: UTF-8
+
+  liquibase:
+    change-log: classpath:db/changelog/changelog.xml
+    enabled: true
+    drop-first: true

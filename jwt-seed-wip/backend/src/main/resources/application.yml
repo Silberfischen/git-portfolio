@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/spring_dev
+    username: postgres
+    password: admin
+
+  jooq:
+    sql-dialect: Postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+  messages:
+    basename: messages/messages
+    encoding: UTF-8
+
+
+  liquibase:
+    change-log: classpath:db/changelog/changelog.xml
+    enabled: true
+
+#logging.level.com: TRACE
+#logging.level.org: TRACE

@@ -1,0 +1,16 @@
+auth:
+  error:
+    token:
+      invalid: Expired or invalid JWT token
+    signup:
+      used: Username is already in use
+      username: The user doesn't exist
+    signin:
+      username: Bad username or password given
+      password: Bad username or password given
+
+
+generic:
+  generic: An error occured while processing your request. Please contact an administrator
+  null: An error occured while processing your request. Please redeploy because something is null!!!
+  noText: An error occured while processing your request. Please redeploy because something has not text!!!

@@ -1,0 +1,1 @@
+SET SCHEMA_SEARCH_PATH public
